@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 # from django.contrib.auth.models import User
 from django.db.models import *
 
-from blog.post import Post
+from blog.models import Post
 
 
 class Comment(Model):
